@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "*"
+mitdeeplearning = "*"
+ipykernel = "*"
+matplotlib = "*"
+comet-ml = "*"
+scipy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
