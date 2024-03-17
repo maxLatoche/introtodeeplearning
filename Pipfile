@@ -4,14 +4,21 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-opencv-python = "*"
+tensorflow = "*"
 mitdeeplearning = "*"
 ipykernel = "*"
 matplotlib = "*"
 comet-ml = "*"
 scipy = "*"
+opencv-python = "*"
+jupyter = "*"
+notebook = "*"
+jupyterlab = "*"
+jupyter-console = "*"
+console = "*"
+qtconsole = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "2.7"
+python_version = "3.11"
